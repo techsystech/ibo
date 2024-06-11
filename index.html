@@ -86,6 +86,10 @@
                     document.getElementById('iconSetWebsite').href = "https://fontawesome.com/v4/icons/"
                     document.getElementById('iconClass').placeholder = "e.g. fa fa-bath"
                     break;
+                case "Font Awesome 6.5.2":
+                    document.getElementById('iconSetWebsite').href = "https://fontawesome.com/v6.5.2/icons"
+                    document.getElementById('iconClass').placeholder = "e.g. fas fa-docker"
+                    break;
                 case "bootstrap-icons":
                     document.getElementById('iconSetWebsite').href = "https://icons.getbootstrap.com/"
                     document.getElementById('iconClass').placeholder = "e.g. bi bi-droplet"
@@ -162,12 +166,13 @@
                     <div class="column column-center column-50">
                         <label for="iconSet">Icon Set</label>
                     </div>
-
+                
                     <div class="column column-40">
                         <select id="iconSet" onchange="populateIconSetWebsite()">
                             <option value="Font Awesome 5 Free">Font Awesome 5 Solid & Regular</option>
                             <option value="Font Awesome 5 Brands">Font Awesome 5 Brands</option>
                             <option value="FontAwesome">Font Awesome 4.7</option>
+                            <option value="Font Awesome 6.5.2">Font Awesome 6.5.2</option>
                             <option value="bootstrap-icons">Bootstrap Icons</option>
                             <option value="simple-line-icons">Simple Line Icons</option>
                             <option value="remixicon">Remix Icon</option>
